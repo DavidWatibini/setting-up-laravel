@@ -61,10 +61,6 @@ If you get an error stating that 'composer command not found', run the following
 
 `$ cd /var/www/html`
 
-#### To run the server, run this commands
-
-`$ php artisan serve`
-
 ## download the Laravel installer using Composer:
 
 `$ sudo apt-get install php7.2-zip`
@@ -75,4 +71,14 @@ If you get an error stating that 'composer command not found', run the following
 
 `$ laravel new blog`
 
+or
+
+`$ composer create-project --prefer-dist laravel/laravel blog`
+
+then finally
+
 `$ cd blog`
+
+#### To run the server, run this commands
+
+`$ php artisan serve`
