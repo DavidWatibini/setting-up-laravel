@@ -79,6 +79,6 @@ then finally
 
 `$ cd blog`
 
-#### To run the server, run this commands
+#### To run the server, run this command
 
 `$ php artisan serve`
