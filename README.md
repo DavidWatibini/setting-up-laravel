@@ -5,21 +5,21 @@ Simple steps to use when setting up Laravel environment for PHP
 
 ## installing Server Requirements
 
-1. Ensure you have PHP7.0+ installed in your computer. install by running this command
+#### Ensure you have PHP7.0+ installed in your computer. install by running this command
 
 `$ sudo apt install php7.2-cli`
 
-2. Ensure you have the following server Requirements that don't come when installing php7.2:
+#### Ensure you have the following server Requirements that don't come when installing php7.2:
 
-#### Mbstring PHP Extension
+###### Mbstring PHP Extension
 
 `$ sudo apt-get install php-mbstring`
 
-#### XML PHP Extension
+###### XML PHP Extension
 
 `$ sudo apt-get install php-xml`
 
-#### BCMath PHP Extension
+###### BCMath PHP Extension
 
 `$ sudo apt install php7.2-bcmath`
 
@@ -39,15 +39,15 @@ If you get an error stating that 'composer command not found', run the following
 
 ## Set PATH variable:
 
-1. Run this command be able to export the PATH
+#### Run this command be able to export the PATH
 
 `$ nano ~/.bashrc`
 
-2. Then add the following line of code at the bottom of the files and save it
+#### Then add the following line of code at the bottom of the files and save it
 
 `$HOME/.config/composer/vendor/bin`
 
-3. Then run the following
+#### Then run the following
 
   `$ source ~/.bashrc`  
 
@@ -57,11 +57,11 @@ If you get an error stating that 'composer command not found', run the following
 
 `$ sudo apt-get install apache2`
 
-4. To check the server set up cd into
+#### To check the server set up cd into
 
 `$ cd /var/www/html`
 
-5. To run the server, run this commands
+####To run the server, run this commands
 
 `$ php artisan serve`
 
