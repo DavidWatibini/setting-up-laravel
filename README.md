@@ -45,7 +45,7 @@ If you get an error stating that 'composer command not found', run the following
 
 #### Then add the following line of code at the bottom of the files and save it
 
-`$HOME/.config/composer/vendor/bin`
+`export PATH="$PATH:$HOME/.composer/vendor/bin"`
 
 #### Then run the following
 
